@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "format": "prettier --write 'apps/**/*.{ts,tsx,js,jsx}' 'packages/**/*.{ts,tsx,js,jsx}'"
+  }
+}
