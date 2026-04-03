@@ -1,5 +1,11 @@
 {
+	"scripts": {
+		"docker:build": "docker build -t cuentos-api -f apps/api/Dockerfile .",
+		"docker:run": "docker run --init -p 3000:3000 cuentos-api",
+		"docker:start": "pnpm docker:build && pnpm docker:run"
+	},
 	"devDependencies": {
+		"@nestjs/cli": "^11.0.17",
 		"prettier": "^3.8.1"
 	},
 	"dependencies": {

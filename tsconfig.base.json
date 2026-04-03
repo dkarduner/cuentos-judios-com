@@ -15,9 +15,9 @@
     "types": ["node", "jest"],
     "baseUrl": ".",
     "paths": {
-      "@cuentos/shared-types": ["packages/shared-types/src"],
-      "@cuentos/api-client": ["packages/api-client/src"],
-      "@cuentos/utils": ["packages/utils/src"]
+      "@cuentos/shared-types": ["packages/shared-types/src/*"],
+      "@cuentos/api-client": ["packages/api-client/src/*"],
+      "@cuentos/utils": ["packages/utils/src/*"]
     }
   }
 }
